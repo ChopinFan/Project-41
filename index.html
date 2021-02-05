@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="libraries/p5.js"></script>
+    <script src="libraries/p5.dom.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src="libraries/matter.js"></script>
+    <script src="libraries/p5.play.js"></script>
+
+
+<script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-database.js"></script>
+
+
+<script>
+  
+  var firebaseConfig = {
+    apiKey: "AIzaSyAV_EJtRk2CfJscz67i2sxdY4VOTC5vP3c",
+    authDomain: "fruit-catcher-aedee.firebaseapp.com",
+    databaseURL: "https://fruit-catcher-aedee-default-rtdb.firebaseio.com",
+    projectId: "fruit-catcher-aedee",
+    storageBucket: "fruit-catcher-aedee.appspot.com",
+    messagingSenderId: "900815103735",
+    appId: "1:900815103735:web:0fca528274f545847515f2"
+  };
+
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+
+    <script src="js/Player.js"></script>
+    <script src="js/Form.js"></script>
+    <script src="js/Game.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+
+</html>
